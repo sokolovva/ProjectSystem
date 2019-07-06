@@ -1,4 +1,4 @@
 <?php
-   $conn = new PDO('mysql:host=localhost;dbname=fmi_admission', 'root', '');
+   $conn = new PDO('mysql:host=localhost;dbname=db', 'root', '');
    $conn -> exec("set names utf8");
 ?>

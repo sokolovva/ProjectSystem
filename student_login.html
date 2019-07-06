@@ -12,17 +12,19 @@
 </head>
 <body>
 
-       <header>
-        <img src="images/logo.png" alt="logo" id='logo'>
-        <h1>Вход за студенти</h1>
-    </header>
+        <header>
+                <img src="pictures/logo.png" alt="logo" id='logo'>
+                <h1>Система за управление на проекти</h1>
+                <p>Вход за студенти</p>
+            </header>
     <button class="top-right" onclick="window.location.href='index.html'">Назад</button>
     <div class="container">
-        <form action="student_login.php" method="POST">
-            <input class="centered" type="text" placeholder="Потребителско име..." required name="username">
-            <input class="centered" type="password" placeholder="Парола..." required name="pass">
+        <form action="student_login.php" method="POST" class='loginForm'>
+            <input class="centered"  type="text" placeholder="Име..." required name="username">
+            <input class="centered"  type="password" placeholder="Парола..." required name="pass">
             <input class="submit-btn" type="submit" value="Вход">
         </form>
+            
     </div>
    
    
